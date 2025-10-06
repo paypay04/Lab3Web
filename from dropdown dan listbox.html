@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Dropdown dan Listbox</title>
+  <style>
+    form p > label {
+      display: inline-block;
+      width: 150px;
+    }
+    select {
+      border: 1px solid #197a43;
+      padding: 4px;
+    }
+    input[type="submit"] {
+      border: 1px solid #197a43;
+      background-color: #197a43;
+      color: #fff;
+      padding: 5px 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Form Dropdown & Listbox Multiple</h1>
+  </header>
+</body>
+</html>
+
+<form action="proses.php" method="post">
+  <fieldset>
+    <legend>Data Pemilihan</legend>
+
+    <p>
+      <label for="jurusan">Pilih Jurusan</label>
+      <select id="jurusan" name="jurusan">
+        <option value="ti">Teknik Informatika</option>
+        <option value="si">Sistem Informasi</option>
+        <option value="rpl">Rekayasa Perangkat Lunak</option>
+        <option value="mi">Manajemen Informatika</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="minat">Bidang Minat</label>
+      <select id="minat" name="minat[]" multiple size="5">
+        <option value="web">Pemrograman Web</option>
+        <option value="ai">Kecerdasan Buatan</option>
+        <option value="data">Data Mining</option>
+        <option value="iot">Internet of Things</option>
+        <option value="cyber">Cyber Security</option>
+      </select>
+    </p>
+
+    <p><input type="submit" value="Kirim"></p>
+  </fieldset>
+</form>
