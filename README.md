@@ -51,7 +51,7 @@ Buat file bernama **`lab3_list.html`** dan tambahkan kode HTML berikut:
 
 
 ---
-praktik3_table.html
+
 ##  Membuat Tabel
 
 ### Langkah-langkah:
