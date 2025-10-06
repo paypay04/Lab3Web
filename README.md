@@ -8,7 +8,7 @@
 ---
 
 
-## 🧩 Langkah-Langkah Praktikum
+##  Langkah-Langkah Praktikum
 
 ###  Membuat List
 Buat file bernama **`lab3_list.html`** dan tambahkan kode HTML berikut:
@@ -48,7 +48,8 @@ Buat file bernama **`lab3_list.html`** dan tambahkan kode HTML berikut:
 ```
 
 📸 **Hasil Tampilan List:**
-![List](./Screenshot%202025-10-06%20130348.png)
+![List]<img width="397" height="759" alt="Screenshot 2025-10-06 130348" src="https://github.com/user-attachments/assets/4a208356-4255-4856-b19a-f364dda586f7" />
+
 
 ---
 
@@ -78,55 +79,79 @@ Buat file **`lab3_form.html`** lalu tambahkan form sederhana seperti berikut:
 ```
 
 📸 **Hasil Tampilan Form:**
-![Form](./Screenshot%202025-10-06%20132751.png)
+![Form]<img width="673" height="530" alt="Screenshot 2025-10-06 132452" src="https://github.com/user-attachments/assets/d4e7f086-cd31-418e-857d-348a536c8062" />
+
 
 ---
 
-###  Membuat Dropdown dan Listbox Multiple
-Buat file **`lab3_dropdown_listbox.html`** berisi form dengan dropdown dan listbox multiple selection:
+##  Membuat Tabel
 
+### Langkah-langkah:
+1. Buat file `praktik3_table.html`.
+2. Tambahkan struktur HTML dasar.
+3. Buat tabel pertama menggunakan tag `<table>`, `<tr>`, `<th>`, dan `<td>`.
+4. Tambahkan tabel kedua menggunakan `rowspan` untuk menggabungkan sel vertikal.
+5. Tambahkan CSS agar tampilan rapi.
+
+### Kode:
 ```html
-<form action="proses.php" method="post">
-  <fieldset>
-    <legend>Data Pemilihan</legend>
+<h1>Membuat Table</h1>
 
-    <p>
-      <label for="jurusan">Pilih Jurusan:</label>
-      <select id="jurusan" name="jurusan">
-        <option value="">-- Pilih Jurusan --</option>
-        <option value="ti">Teknik Informatika</option>
-        <option value="industri">Teknik Industri</option>
-        <option value="ars">Teknik Arsitektur</option>
-        <option value="sipil">Teknik Sipil</option>
-      </select>
-    </p>
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>No.</th>
+    <th>Fakultas</th>
+    <th>Program Studi</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td>Teknik</td>
+    <td>Teknik Informatika</td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td>Teknik</td>
+    <td>Teknik Industri</td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <td>Teknik</td>
+    <td>Teknik Lingkungan</td>
+  </tr>
+</table>
 
-    <p>
-      <label for="minat">Bidang Minat:</label>
-      <select id="minat" name="minat[]" multiple size="5">
-        <option value="web">Pemrograman Web</option>
-        <option value="ai">Kecerdasan Buatan</option>
-        <option value="data">Data Mining</option>
-        <option value="iot">Internet of Things</option>
-        <option value="cyber">Cyber Security</option>
-      </select>
-    </p>
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>No.</th>
+    <th>Fakultas</th>
+    <th>Program Studi</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td rowspan="3">Teknik</td>
+    <td>Teknik Informatika</td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td>Teknik Industri</td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <td>Teknik Lingkungan</td>
+  </tr>
+</table>
 
-    <p><input type="submit" value="Kirim"></p>
-  </fieldset>
-</form>
-```
+📸 **Hasil Akhir Tampilan:**<img width="755" height="512" alt="Screenshot 2025-10-06 132751" src="https://github.com/user-attachments/assets/76ad6cdf-137e-4179-be62-788fc34082d3" />
 
-📸 **Hasil Tampilan Form Dropdown & Listbox:**
-![Dropdown](./Screenshot%202025-10-06%20134341.png)
 
 ---
 
-###  Membuat Pengisian From *(Kreativitas Tambahan)*
-Sebagai pengembangan dari praktikum, dibuat form versi **Pixel Lavender** dengan tema ungu pastel dan font pixel.
+###  Membuat Pengisian From 
+Sebagai pengembangan dari praktikum, dibuat form versi **Pixel** dengan tema ungu pastel dan font pixel.
 
 📸 **Hasil Akhir Tampilan:**
-![Pixel Lavender Form](./314b0eec-8887-4894-842e-409ac5229aa7.png) 
+![Pixel Lavender Form]<img width="1918" height="965" alt="Screenshot 2025-10-06 222113" src="https://github.com/user-attachments/assets/9c4b39de-5df7-493f-97f2-e8d0ae821df6" />
+
 
 ---
 
