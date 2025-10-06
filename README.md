@@ -104,9 +104,8 @@ Buat file bernama **`praktik3_table.html`** dan tambahkan kode HTML berikut:
     <td>Teknik Lingkungan</td>
   </tr>
 </table>
----
-<img width="673" height="530" alt="Screenshot 2025-10-06 132452" src="https://github.com/user-attachments/assets/07d51680-3ee5-4818-8880-e60e8e9d87ff" />
-
+```
+<img width="673" height="530" alt="Screenshot 2025-10-06 132452" src="https://github.com/user-attachments/assets/b9b59dc3-845c-42c6-94f6-305f22002124" />
 
 ---
 
