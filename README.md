@@ -47,8 +47,7 @@ Buat file bernama **`lab3_list.html`** dan tambahkan kode HTML berikut:
 </section>
 ```
 
-📸 **Hasil Tampilan List:**
-![List]<img width="397" height="759" alt="Screenshot 2025-10-06 130348" src="https://github.com/user-attachments/assets/4a208356-4255-4856-b19a-f364dda586f7" />
+<img width="397" height="759" alt="Screenshot 2025-10-06 130348" src="https://github.com/user-attachments/assets/4a208356-4255-4856-b19a-f364dda586f7" />
 
 
 ---
@@ -144,7 +143,7 @@ Buat file **`lab3_form.html`** lalu tambahkan form sederhana seperti berikut:
 
 ---
 
-###  Membuat Pengisian From 
+###  Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
 Sebagai pengembangan dari praktikum, dibuat form versi **Pixel** dengan tema ungu pastel dan font pixel.
 
 
