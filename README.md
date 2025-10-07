@@ -46,6 +46,7 @@ Buat file bernama **`lab3_list.html`** dan tambahkan kode HTML berikut:
   </dl>
 </section>
 ```
+ini adalah output dari codingan di atas:
 
 <img width="397" height="759" alt="Screenshot 2025-10-06 130348" src="https://github.com/user-attachments/assets/4a208356-4255-4856-b19a-f364dda586f7" />
 
@@ -105,6 +106,7 @@ Buat file bernama **`praktik3_table.html`** dan tambahkan kode HTML berikut:
   </tr>
 </table>
 ```
+ini adalah output dari codingan di atas:
 <img width="673" height="530" alt="Screenshot 2025-10-06 132452" src="https://github.com/user-attachments/assets/b9b59dc3-845c-42c6-94f6-305f22002124" />
 
 ---
@@ -133,15 +135,16 @@ Buat file **`lab3_form.html`** lalu tambahkan form sederhana seperti berikut:
   </fieldset>
 </form>
 ```
-
+ini adalah output dari codingan di atas:
 
 <img width="755" height="512" alt="Screenshot 2025-10-06 132751" src="https://github.com/user-attachments/assets/76ad6cdf-137e-4179-be62-788fc34082d3" />
 
 
 ---
 
-###  Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
-Sebagai pengembangan dari praktikum, dibuat form versi **Pixel** dengan tema ungu pastel dan font pixel.
+## Soal
+### 1.  Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
+Jawaban : Sebagai pengembangan dari praktikum, dibuat form versi **Pixel** dengan tema ungu pastel dan font pixel.
 
 
 <img width="1918" height="965" alt="Screenshot 2025-10-06 222113" src="https://github.com/user-attachments/assets/9c4b39de-5df7-493f-97f2-e8d0ae821df6" />
